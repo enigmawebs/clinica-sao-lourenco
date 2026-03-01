@@ -33,7 +33,7 @@ export function Navbar() {
           <img
             src="/logo.png"
             alt="Clínica São Lourenço"
-            className="h-12 w-auto group-hover:scale-105 transition-transform"
+            className="h-20 w-auto group-hover:scale-105 transition-transform"
           />
         </Link>
 
