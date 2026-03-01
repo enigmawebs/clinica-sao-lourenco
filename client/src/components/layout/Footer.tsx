@@ -10,16 +10,12 @@ export function Footer() {
           
           {/* Brand Col */}
           <div className="space-y-6">
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-2xl shadow-lg shadow-primary/20">
-                SL
-              </div>
-              <div>
-                <h2 className="font-bold text-xl leading-none text-white" style={{ fontFamily: 'var(--font-display)' }}>
-                  Clínica São Lourenço
-                </h2>
-                <p className="text-sm text-primary-foreground/70">Médica e Dentária</p>
-              </div>
+            <div className="flex items-center">
+              <img
+                src="/logo.png"
+                alt="Clínica São Lourenço"
+                className="h-14 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
               O seu bem-estar é a nossa prioridade. Cuidamos da sua saúde com uma equipa experiente, dedicação e um atendimento personalizado.

@@ -29,16 +29,12 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-primary/30 group-hover:scale-105 transition-transform">
-            SL
-          </div>
-          <div>
-            <h1 className="font-bold text-xl text-foreground leading-none" style={{ fontFamily: 'var(--font-display)' }}>
-              Clínica São Lourenço
-            </h1>
-            <p className="text-xs text-primary font-medium">Médica e Dentária</p>
-          </div>
+        <Link href="/" className="flex items-center group">
+          <img
+            src="/logo.png"
+            alt="Clínica São Lourenço"
+            className="h-12 w-auto group-hover:scale-105 transition-transform"
+          />
         </Link>
 
         {/* Desktop Nav */}
