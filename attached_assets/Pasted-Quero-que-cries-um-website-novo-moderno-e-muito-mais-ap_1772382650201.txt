@@ -1,0 +1,153 @@
+Quero que cries um website novo, moderno e muito mais apelativo para uma clínica chamada “Clínica São Lourenço — Clínica Médica e Dentária”, substituindo um site antigo (muito básico). O objetivo do site é atrair novos clientes e aumentar marcações, com um design profissional, acolhedor, limpo e com excelente experiência mobile.
+
+1) Identidade, estilo e design (muito importante)
+	•	Estilo: moderno, humano, confiança, saúde, “premium acessível”.
+	•	Visual: muito mais atual do que o site antigo; usa layout com cards, secções bem espaçadas, tipografia moderna, micro-interações suaves.
+	•	Paleta sugerida (podes ajustar): tons turquesa/teal e branco, com cinzas suaves e um tom de destaque para CTAs.
+	•	Tipografia: uma fonte sans moderna (ex.: Inter / Poppins / Manrope).
+	•	Site totalmente responsivo (mobile-first), excelente em telemóvel.
+	•	Acessibilidade: contrastes bons, foco visível, labels no formulário, alt text em imagens.
+	•	Performance: imagens otimizadas, layout leve, boa pontuação Lighthouse.
+
+2) Páginas obrigatórias e navegação
+
+Criar um menu no topo com:
+	•	Início
+	•	Serviços
+	•	Acordos / Protocolos
+	•	Contactos
+
+	•	rodapé com:
+
+	•	Contactos (morada, telefones, email)
+	•	Horário
+	•	Links rápidos
+	•	Política de Privacidade (página própria)
+
+3) Conteúdo (usar PT-PT)
+
+Informações reais para incluir
+Nome: Clínica São Lourenço — Clínica Médica e Dentária
+Morada: Rua Ana de Castro Osório, 20, Brejos de Azeitão
+Telefones: 21 219 93 57 | 96 647 92 55
+Email: saolourencoclinica@gmail.com
+Website: www.saolourencoclinica.com
+
+Horário:
+	•	Segunda a sexta: 9h às 20h
+	•	Sábados: 9h às 13h
+Análises: 2ª a 6ª entre as 8h e as 11h
+
+Lista de serviços (apresentar com ícones e cards)
+	•	Medicina Dentária
+	•	Clínica Geral
+	•	Pediatria
+	•	Nutrição
+	•	Psicologia Clínica
+	•	Psicologia Infantil
+	•	Terapia da Fala
+	•	Podologia
+	•	Saúde Materno-Infantil
+	•	Enfermagem
+	•	Análises Clínicas
+	•	Osteopatia
+	•	Acupunctura Clínica
+	•	Shiatsu
+
+Acordos / Protocolos (mostrar numa grelha com logos/placeholder)
+Incluir secção com “Trabalhamos com” e espaço para logos (podes usar placeholders e nomes):
+	•	Multicare
+	•	AdvanceCare
+	•	Saúde Prime
+	•	Mundial Assistance
+	•	Future Healthcare
+	•	iSport City
+	•	Saúde Global
+	•	Medicare
+	•	PlanusCard
+
+Texto adicional: “Temos outros acordos disponíveis. Consulte-nos.”
+
+4) Estrutura da homepage (focada em conversão)
+
+A homepage deve ser forte e apelativa, com estas secções:
+	1.	Hero (topo) com headline convincente + subtítulo + CTAs:
+	•	CTA principal: “Marcar Consulta”
+	•	CTA secundário: “Falar com a Clínica”
+	•	Mostrar rapidamente telefones e horário (com ícones).
+	•	Imagem hero: usar placeholder (ambiente de clínica/receção), estilo clean.
+	2.	Bloco “Porque escolher-nos” (3–5 benefícios) com ícones:
+	•	Equipa experiente e dedicada
+	•	Atendimento humano e personalizado
+	•	Várias especialidades num só lugar
+	•	Horários alargados e análises de manhã
+	•	Localização fácil em Brejos de Azeitão
+	3.	Especialidades em destaque (cards clicáveis) + botão “Ver todos os serviços”.
+	4.	Acordos / Protocolos (grelha de logos) + frase curta.
+	5.	Testemunhos (3–6) — usar texto placeholder realista (sem inventar nomes reais).
+Ex.: “Atendimento impecável, senti-me acompanhado do início ao fim.”
+	6.	Localização com mapa (embed Google Maps) + morada + como chegar.
+	7.	CTA final forte com “Marque a sua consulta hoje” e botões.
+
+5) Página “Serviços”
+	•	Layout limpo, com pesquisa/filtro (opcional mas recomendado).
+	•	Cards por especialidade com descrição curta (1–2 frases).
+	•	CTA persistente para marcação.
+
+6) Página “Acordos / Protocolos”
+	•	Explicar que existem acordos com seguradoras/planos.
+	•	Grelha de logos + lista textual.
+	•	CTA “Confirmar cobertura / pedir informação”.
+
+7) Página “Contactos”
+	•	Mostrar:
+	•	Telefones clicáveis (tap-to-call)
+	•	Email clicável
+	•	Horário
+	•	Formulário de contacto (Nome, Email/Telefone, Assunto, Mensagem, checkbox consentimento)
+	•	Botão WhatsApp (se possível com placeholder de número — se não houver, não inventar; deixa configurável).
+	•	Mapa incorporado.
+
+8) Política de Privacidade
+
+Criar uma página com texto-base (genérico) em PT-PT:
+	•	Recolha de dados via formulário
+	•	Finalidade de contacto e marcações
+	•	Conservação
+	•	Direitos do titular
+	•	Cookies (se aplicável)
+	•	Nota: incluir “Este texto deve ser revisto por um profissional/jurídico”.
+
+9) Funcionalidades extra (recomendado)
+	•	Botão flutuante “Marcar Consulta” e/ou “Ligar agora”.
+	•	Formulários com validação e mensagens de sucesso/erro.
+	•	SEO básico:
+	•	titles/descriptions por página
+	•	Open Graph
+	•	dados estruturados LocalBusiness/MedicalClinic (JSON-LD)
+	•	Preparar o site para ser facilmente editável:
+	•	Centralizar conteúdos (contactos, horários, lista de serviços, acordos) num ficheiro único (ex.: siteConfig.ts / config.json).
+
+10) Requisitos técnicos (escolhe uma abordagem)
+
+Preferência A (recomendada): Next.js + React + Tailwind
+	•	Rotas: /, /servicos, /protocolos, /contactos, /politica-privacidade
+	•	Componentes reutilizáveis (Navbar, Footer, CTASection, ServiceCard, etc.)
+	•	Animações suaves com Framer Motion (opcional).
+
+Preferência B (simples): HTML + CSS + JS
+	•	Pastas: index.html, servicos.html, protocolos.html, contactos.html, privacidade.html
+	•	CSS moderno (Flex/Grid), responsivo.
+
+11) Entrega
+	•	Gerar o projeto completo com ficheiros e código funcional.
+	•	Incluir placeholders de imagens (com nomes e locais) e instruções onde trocar por imagens reais.
+	•	No final, explicar rapidamente:
+	•	Como correr o projeto
+	•	Onde editar contactos/horários
+	•	Onde trocar logos e imagens
+	•	Como atualizar o link do Google Maps
+
+Não inventes informações clínicas específicas (equipa, médicos, preços) nem números que não foram fornecidos. Usa placeholder quando necessário.
+
+Agora cria o site completo seguindo tudo acima, com um design muito mais moderno e apelativo do que um site básico antigo.
